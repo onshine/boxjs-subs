@@ -42,8 +42,8 @@
           "desc": "反代服务器地址，默认官方地址"
         }
       ],
-      "author": "YourName",
-      "repo": "https://github.com/你的用户名/boxjs-subs",
+      "author": "onshine",
+      "repo": "https://github.com/onshine/boxjs-subs",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/telegram.png"
       ]
