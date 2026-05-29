@@ -1,6 +1,6 @@
 {
   "id": "my.newapi.sign",
-  "name": "TG 签到配置",
+  "name": "newapi-TG签到配置",
   "description": "用于配置 NewAPI.js 的 TG 签到参数",
   "apps": [
     {
