@@ -1,0 +1,52 @@
+{
+  "id": "my.newapi.sign",
+  "name": "TG 签到配置",
+  "description": "用于配置 NewAPI.js 的 TG 签到参数",
+  "apps": [
+    {
+      "id": "NewAPISign",
+      "name": "TG 签到",
+      "keys": [
+        "host",
+        "tg_bot_token",
+        "tg_user_id",
+        "tg_api_host"
+      ],
+      "settings": [
+        {
+          "id": "host",
+          "name": "API Host",
+          "val": "api.dabo.im",
+          "type": "text",
+          "desc": "请输入 API 的服务器地址"
+        },
+        {
+          "id": "tg_bot_token",
+          "name": "Telegram Bot Token",
+          "val": "",
+          "type": "text",
+          "desc": "请输入你的 TG Bot Token"
+        },
+        {
+          "id": "tg_user_id",
+          "name": "Telegram User ID",
+          "val": "",
+          "type": "text",
+          "desc": "请输入你的 TG 用户 ID"
+        },
+        {
+          "id": "tg_api_host",
+          "name": "Telegram API Host",
+          "val": "api.telegram.org",
+          "type": "text",
+          "desc": "反代服务器地址，默认官方地址"
+        }
+      ],
+      "author": "YourName",
+      "repo": "https://github.com/你的用户名/boxjs-subs",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/telegram.png"
+      ]
+    }
+  ]
+}
